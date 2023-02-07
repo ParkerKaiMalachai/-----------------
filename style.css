@@ -1,0 +1,15 @@
+@import url(header.css);
+@import url(content.css);
+@import url(features.css);
+@import url(work.css);
+@import url(our__team.css);
+@import url(testimonials.css);
+@import url(download.css);
+@import url(footer.css);
+body {
+    background-image: url(img.png);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 3000px;
+}

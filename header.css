@@ -1,0 +1,116 @@
+.header {
+    background: #252B49;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    position: relative;
+    width: 100%;
+    max-width: 3000px;
+    margin: 0 0 0 0;
+    height: 100.95px;
+}
+ul.header__list li {
+    display: inline-block;
+    margin: 0 35px 0 35px;
+}
+.header__list {
+    float: right;
+    position: absolute;
+    margin-top: 20px;
+    left: 39%;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.header__logo__img {
+    position: absolute;
+    left: 10%;
+    top: -20px;
+}
+.header__line-1 {
+    background: #BABBC5;
+    width: 12%;
+    height: 3px;
+    position: absolute;
+    left: 41%;
+    top: 96px;
+}
+.header__line-2 {
+    width: 80%;
+    height: 0px;
+    border: 1px solid #BABBC5;
+    position: absolute;
+    left: 9.5%;
+    top: 99px;
+}
+@media only screen and (min-device-width : 768px) and (max-device-width
+: 1024px) and (orientation : landscape) {
+    .header__logo__img {
+        max-width: 270px;
+        margin-top: 10px;
+    }
+    ul.header__list li {
+        margin: 0 25px 0 0;
+    }
+    .header__list {
+        position: absolute;
+        left: 40%;
+        top: 10px;
+        font-size: 15px;
+    }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width
+: 1024px) and (orientation : portrait) {
+    .header {
+        width: 100%;
+        max-width: 800px;
+        height: 101.5px;
+    }
+    ul.header__list li {
+        margin: 0 25px 10px 0;
+}
+    .header__list {
+        font-size: 20px;
+        width: 450px;
+        position: absolute;
+        left: 30%;
+    }
+    .header__logo__img {
+        margin-left: -50px;
+        max-width: 250px;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 1200px) {
+    
+}
+@media only screen and (min-width : 321px) and (max-width: 500px){
+    .header__logo__img {
+        left: 0%;
+    }
+    .header__list {
+        padding-left: 0;
+        font-size: 9px;
+    }
+    ul.header__list li {
+        margin: 0 0px 0 35px;
+    }
+    .header__line-1 {
+        top: 56px;
+    }
+    .header__line-2 {
+        top: 57px;
+    }
+}
+
+@media only screen and (max-width : 320px) and (orientation: portrait) {
+    .header__logo__img {
+        left: 0px;
+    }
+    .header__list {
+        width: 50%;
+        left: 30%;
+    }
+}

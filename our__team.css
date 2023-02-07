@@ -1,0 +1,199 @@
+.our__team {
+    width: 100%;
+    height: 1050px;
+    background: white;
+}
+.our__team__wrapper {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 80%;
+    top: 250px;
+    margin-left: 200px;
+    min-width: 320px;
+}
+.our__teams {
+    width: 23%;
+}
+.our__team__name {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    align-items: center;
+    text-align: center;
+    color: #2D3033;
+    text-transform: capitalize;
+}
+.our__team__position {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FF4343;
+    text-transform: uppercase;
+    align-items: center;
+}
+.our__team__text {
+    color: #6C7279;
+    align-items: center;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    margin: 0 5px 0 5px;
+}
+.our__team__icons__wrapper {
+    position: relative;
+    left: -50px;
+}
+.our__team__position-2 {
+    font-size: 16px;
+}
+.our__team__pic {
+    overflow: hidden;
+}
+@media only screen and (min-device-width : 768px) and (max-device-width
+: 1024px) and (orientation : landscape) {
+    .our__team__wrapper {
+        left: 7%;
+        top: 150px;
+    }
+    .our__team__position-2 {
+        font-size: 15px;
+    }
+    .our__team__text {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .our__teams {
+        width: 25%;
+    }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width
+: 1024px) and (orientation : portrait) {
+    .our__team__pic {
+        overflow: hidden;
+    }
+    .our__teams {
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    .our__team {
+        height: 2600px;
+    }
+    .our__team__name {
+        font-size: 38px;
+    }
+    .our__team__position {
+        font-size: 29px;
+    }
+    .our__team__text {
+        font-size: 25px;
+    }
+    .our__team__wrapper {
+        top: 100px;
+        margin-left: 60px;
+    }
+    .our__team__icons__wrapper {
+        left: 0px;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 1200px) {
+    .our__team__position-2 {
+        font-size: 15px;
+    }
+    .our__team__wrapper {
+        margin-left: 80px;
+    }
+}
+@media (max-width: 992px) {
+    .our__team__position {
+        font-size: 10px;
+    }
+    .our__team__name {
+        font-size: 18px;
+    }
+    .our__team__pic {
+        width: 200px;
+        height: 200px;
+    }
+    .our__team__icons__wrapper {
+        left: 0;
+    }
+    /* .our__team {
+        height: 1000px;
+    } */
+}
+@media (max-width: 767px) {
+    .our__team__pic {
+        width: 150px;
+        height: 150px;
+    }
+    .our__team__icon-1 {
+        width: 25px;
+        height: 25px;
+    }
+    .our__team__icon-2 {
+        width: 25px;
+        height: 25px;
+    }
+    .our__team__icon-3 {
+        width: 25px;
+        height: 25px;
+    }
+    .our__team__icon-4 {
+        width: 25px;
+        height: 25px;
+    }
+    .our__team__wrapper {
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (min-width : 321px) and (max-width: 500px) and (orientation: landscape){
+    .our__team__pic {
+        width: 120px;
+        height: 120px;
+    }
+    .our__teams {
+        width: 46%;
+    }
+    .our__team {
+        height: 1300px
+    }
+    .our__team__pic {
+        width: 100px;
+        height: 100px;
+    }
+}
+@media only screen and (min-width : 321px) and (max-width: 500px) {
+    .our__team__pic {
+        width: 100px;
+        height: 100px;
+    }
+    .our__team__wrapper {
+        left: 0%;
+    }
+    .our__teams {
+        width: 20%;
+    }
+}
+@media only screen and (max-width : 320px) and (orientation: portrait) {
+    .our__teams {
+        width: 65%;
+    }
+    .our__team {
+        height: 1600px;
+    }
+    .our__team__wrapper {
+        margin-left: 0px;
+    }
+    .our__team__pic {
+        width: 100px;
+        height: 100px;
+    }
+}
